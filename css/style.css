@@ -513,6 +513,6 @@ img {
 }
 
 .ymaps-2-1-79-balloon__close-button {
-  background: url(/img/close1.svg) 50% no-repeat !important;
+  background: url(../img/close1.svg) 50% no-repeat !important;
   opacity: 1 !important;
 }
