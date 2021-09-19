@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.min.css">
+</head>
+<body>
+    <div class="body__wrapper">
+        <div class="main">
+            <div class="main__container">
+                <div class="main__filter filter">
+                    <div class="filter__country-wrapper">
+                        <div class="filter__button-wrapper filter__button-wrapper_left">
+                            <button data-click="0" class="filter__button button-russia-js">Россия</button>
+                        </div>
+                        <div class="filter__button-wrapper filter__button-wrapper_right">
+                            <button data-click="0" class="filter__button button-belarus-js">Белоруссия</button>
+                        </div>
+                    </div>
+                    <div class="filter__office-wrapper">
+                        <div class="filter__country filter__country_russia"></div>
+                        
+                        <div class="filter__country filter__country_belarus"></div>
+                    </div>
+                </div>
+                <div class="main__map">
+                    <div id="map" style="width: 100%; height: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1a2b8a21-93c5-4902-a211-2fae16daf2e5&lang=ru_RU" type="text/javascript"></script>
+    <script src="/js/main.js"></script>
+    
+</body>
+</html>
